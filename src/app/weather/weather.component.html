@@ -1,0 +1,32 @@
+<button (click)="getAllWeather()">GET single weather</button>
+
+<h2> All Weather </h2>
+<ul *ngFor="let weather of weathers">
+  <li>id: {{weather.id}}</li>
+  <li>city: {{weather.city}}</li>
+  <li>uri: {{weather.uri}}</li>
+</ul> 
+
+
+<button (click)="getMultipleWeather()">GET multiple weather</button> <br>
+
+<button (click)="getLimit()">GET limit weather</button> <br>
+
+<button (click)="getWarehouse()">GET All CAR</button> <br>
+
+<h1>{{stringLimit}}</h1>
+
+<h2> All A </h2>
+<ul *ngFor="let _a of a">
+  <li>A id: {{_a.id}}</li>
+  <li>A Name: {{_a.name}}</li>
+  <li>A Address: {{_a.address}}</li>
+  <li>B Name: {{_a.b.name}}</li>
+  <li>B Address: {{_a.b.address}}</li>
+  
+  
+</ul> 
+
+
+
+
