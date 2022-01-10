@@ -23,6 +23,12 @@
   <li>A Address: {{_a.address}}</li>
   <li>B Name: {{_a.b.name}}</li>
   <li>B Address: {{_a.b.address}}</li>
+    <ul *ngFor="let c of _a.b.cBatch">
+    <li>C Name: {{c.name}}</li>
+    <li>C Address: {{c.address}}</li>
+  
+  </ul>
+  
   
   
 </ul> 

@@ -4,5 +4,5 @@ export interface B {
     id : number,
     name: string,
     address: string,
-    c : C[]
+    cBatch : C[]
 }

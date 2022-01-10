@@ -10,7 +10,7 @@ import { A } from 'src/app/a';
 export class WeatherService {
 
   private _base_url =  "http://localhost:8080/weather";
-  private _car_url ="http://localhost:8080/api/v1/revisions/geta/6";
+  private _car_url ="http://localhost:8080/api/v1/revisions/geta/1";
 
   private _all_weather_url: string = this._base_url+"/all";
   private _city_weather_url: string = this._base_url+"/city/espoo";
